@@ -2,7 +2,7 @@ import axios from 'axios'
 import userService from './user'
 
 let timeout = null
-const API_KEY = 'AIzaSyDSJIZsMHUxKonvnsXXXY0-SyLiKq6MQY4'
+const API_KEY = 'AIzaSyDNyA8RoC0pBS9qvhXWzFW712X4cwf_SJE'
 const createUrl = (method) => {
   return `https://identitytoolkit.googleapis.com/v1/accounts:${method}?key=${API_KEY}`
 }
